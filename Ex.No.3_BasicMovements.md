@@ -1,6 +1,6 @@
 # Ex.No: 3  Basic movements in Unity 
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 12/08/2025                                                                        
+### REGISTER NUMBER : 212223240088
 ### AIM: 
  To learn the basic movements translation,scaling and rotation of game objects through code.
 ### Procedure:
@@ -17,46 +17,37 @@
 11. Stop the program.
 ### Program 
 ```
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-public class TransformOperations : MonoBehaviour
+
+public class movement : MonoBehaviour
 {
-    public Transform object1; // Object for translation
-    public Transform object2; // Object for rotation
-    public Transform object3; // Object for scaling
+ public Transform Object1;
+ public Transform Object2;
+ public Transform Object3;
+ void Start()
+ {
+    
 
-    public float moveSpeed = 2f;  // Speed of translation
-    public float rotateSpeed = 50f; // Speed of rotation
-    public float scaleSpeed = 0.5f; // Speed of scaling
+ }
 
-    void Update()
-    {
-        // Translate (Move) object1 along the X-axis- Time.deltaTime to make movement smooth across all frame rates
-        if (object1 != null)
-        {
-           // object1.position += Vector3.right * moveSpeed;
-               object1.Translate(0.02f,0,0);
-
-        }
-
-        // Rotate object2 around the Y-axis
-        if (object2 != null)
-        {
-            //object2.Rotate(Vector3.up * rotateSpeed * Time.deltaTime);
-            //object2.Rotate(0,0.02f.0);
-        }
-
-        // Scale object3 up and down
-        if (object3 != null)
-        {
-           // float scaleChange = Mathf.PingPong(Time.time * scaleSpeed, 1f) + 0.5f; // generates a value that moves back and forth between 0 and length
-           // object3.localScale = new Vector3(scaleChange, scaleChange, scaleChange);
-            object3.localScale+=new Vector3(0.02f.0.02f,0);
-
-        }
-    }
+ // Update is called once per frame
+ void Update()
+ {
+     Object1.Translate(0.02f, 0, 0);
+     Object2.Rotate(0.2f, 0, 0);
+     Object3.localScale += new Vector3(0, 0.02f, 0);
+ }
 }
 ```
 ### Output:
+# BEFORE:
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/1e3435e4-7cf8-4172-b80d-76e5a66e6c90" />
+
+# AFTER:
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/2337f7d2-dcd5-46c3-af6b-b2990222116a" />
+
 
 
 
