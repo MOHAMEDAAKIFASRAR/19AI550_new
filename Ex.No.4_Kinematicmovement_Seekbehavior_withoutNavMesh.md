@@ -52,6 +52,11 @@ public class Script : MonoBehaviour
 }
 ```
 ### Output:
+### BEFORE:
+<img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/05d8c7dd-accc-4d06-ba14-319b4e502239" />
+
+### AFTER:
+<img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/a5967508-154d-4ded-855c-beb6793390b5" />
 
 
 
