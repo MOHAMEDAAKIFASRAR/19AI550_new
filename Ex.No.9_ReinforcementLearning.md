@@ -159,10 +159,10 @@ behaviors:
     summary_freq: 10000
 ```
 ### Output:
-#### Before:
+### Before:
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/40a4aa7c-e08d-4574-bb0a-014a53201c9f" />
 
-#### After:
+### After:
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/62369a10-894f-4124-aa64-bdd0a1679e72" />
 
 
